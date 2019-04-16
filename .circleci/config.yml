@@ -1,17 +1,58 @@
 version: 2
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+
 jobs:
   build:
     docker:
-      - image: 'node:10'
-    working_directory: ~/repo
+      - image: node:10
     steps:
       - checkout
       - restore_cache:
-          keys:
-            - node_modules-{{ checksum "yarn.lock" }}
+          keys: ['node_modules-{{ checksum "yarn.lock" }}']
       - run: yarn install
       - save_cache:
-          paths:
-            - node_modules
+          paths: ['node_modules']
           key: node_modules-{{ checksum "yarn.lock" }}
       - run: yarn build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - build/*
+  deploy:
+    docker:
+      - image: node:10
+    steps:
+      - checkout
+      - restore_cache:
+          keys: ['node_modules-{{ checksum "yarn.lock" }}']
+      - run: yarn install
+      - save_cache:
+          paths: ['node_modules']
+          key: node_modules-{{ checksum "yarn.lock" }}
+      - attach_workspace:
+          at: .
+      - add_ssh_keys:
+          fingerprints: ['7d:95:13:63:1f:d3:d7:00:e3:fc:5e:69:ad:b6:ad:6a']
+      - run:
+          name: Setup git user
+          command: |
+            git config user.email "build@circleci.com"
+            git config user.name "CircleCI"
+      - run:
+          command: yarn deploy
