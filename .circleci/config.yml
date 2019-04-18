@@ -24,11 +24,11 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          keys: ['node_modules-{{ checksum "client/yarn.lock" }}']
+          keys: ['client/node_modules-{{ checksum "client/yarn.lock" }}']
       - run: make install-dependencies-client
       - save_cache:
-          paths: ["node_modules"]
-          key: node_modules-{{ checksum "client/yarn.lock" }}
+          paths: ["client/node_modules"]
+          key: client/node_modules-{{ checksum "client/yarn.lock" }}
       - run: make build-client
       - persist_to_workspace:
           root: .
@@ -40,11 +40,11 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          keys: ['node_modules-{{ checksum "client/yarn.lock" }}']
+          keys: ['client/node_modules-{{ checksum "client/yarn.lock" }}']
       - run: make install-dependencies-client
       - save_cache:
-          paths: ["node_modules"]
-          key: node_modules-{{ checksum "client/yarn.lock" }}
+          paths: ["client/node_modules"]
+          key: client/node_modules-{{ checksum "client/yarn.lock" }}
       - attach_workspace:
           at: .
       - add_ssh_keys:
