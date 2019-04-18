@@ -1,0 +1,54 @@
+Zusammensetzung	Tagesbedarf
+(lt. Deiner Angabe)
+Kilokalorien	188 kcal	0,0	
+KiloJoule	787 kJ	
+Wasser	44 g	0,0	
+Eiweiß, Proteine	6 g	0,0	
+Fett	1 g	0,0	
+Kohlenhydrate	38 g	0,0	
+Ballaststoffe	9 g	0,0	
+Broteinheiten DE	3 BE	0,0	
+Broteinheiten CH	4 BE	0,0	
+Carbohydrate units EN	3 CU	0,0	
+Mineralstoffe (Rohasche)	2 g	0,0	
+organische Säuren	0,1 g	0,0	
+Alkohol (Ethanol)	0,0 g	0,0	
+Nährwertampel für 100 g Vollkornbrot
+Nährwert	Menge	Bewertung
+Fett gesamt	1,0 g	
+gesättigte Fettsäuren	0,1 g	
+Zucker	0,8 g	
+Salz	1,1 g	
+Vitamin in µg	Tagesbedarf
+Vitamin A Retinoläquivalent	1 µg	900 µg	(=0,1%)	Info zum Tagesbedarf an Vitamin A Retinoläquivalent
+Vitamin A Retinol	0,0 µg	1.000 µg	(=0,0%)	Info zum Tagesbedarf an Vitamin A Retinol
+Vitamin A Beta-Carotin	4 µg	2.000 µg	(=0,2%)	Info zum Tagesbedarf an Berta Carotin
+Vitamin B1 Thiamin	102 µg	1.100 µg	(=9,3%)	Info zum Tagesbedarf an Vitamin B1 Thiamin
+Vitamin B2 Riboflavin	98 µg	1.200 µg	(=8,2%)	Info zum Tagesbedarf an Vitamin B2 Riboflavin
+Vitamin B3 Niacin, Nicotinsäure	1.329 µg	15.000 µg	(=8,9%)	Info zum Tagesbedarf an Vitamin B3 Niacin
+Vitamin B3 Niacinäquivalent	2.396 µg	17.000 µg	(=14,1%)	Info zum Tagesbedarf an Vitamin B3 Niacinäquivalent
+Vitamin B5 Pantothensäure	534 µg	6.000 µg	(=8,9%)	Info zum Tagesbedarf an Vitamin B5 Pantothensäute
+Vitamin B6 Pyridoxin	152 µg	1.500 µg	(=10,1%)	Info zum Tagesbedarf an Vitamin B6 Pyridoxin
+Vitamin B7 Biotin (Vitamin H)	5 µg	100 µg	(=5,0%)	Info zum Tagesbedarf an Vitamin B7 Biotin
+Vitamin B9 gesamte Folsäure	36 µg	400 µg	(=9,0%)	Info zum Tagesbedarf an Vitamin B9 Folsäure
+Vitamin B12 Cobalamin	0,0 µg	3 µg	(=0,0%)	Info zum Tagesbedarf an Vitamin B12 Cobalamin
+Vitamin C Ascorbinsäure	0,0 µg	100.000 µg	(=0,0%)	Info zum Tagesbedarf an Vitamin C
+Vitamin D Calciferole	0,0 µg	20 µg	(=0,0%)	Info zum Tagesbedarf an Vitamin D Calciferole
+Vitamin E Tocopheroläquivalent	1.004 µg	12.000 µg	(=8,4%)	Info zum Tagesbedarf an Vitamin E Tocopheroläquivalent
+Vitamin E Tocopherol	635 µg	0,0		Info zum Tagesbedarf an Vitamin E Alphatocopherol
+Vitamin K Phyllochinon	31 µg	70 µg	(=44,3%)	Info zum Tagesbedarf an Vitamin K Phyllochinon
+Mineralstoff in mg	Tagesbedarf
+Natrium	430 mg	1.500 mg	(=28,7%)	Info zum Tagesbedarf an Natrium
+Kalium	290 mg	4.000 mg	(=7,3%)	Info zum Tagesbedarf an Kalium
+Calcium	21 mg	1.000 mg	(=2,1%)	Info zum Tagesbedarf an Calcium
+Magnesium	56 mg	350 mg	(=16,0%)	Info zum Tagesbedarf an Magnesium
+Phosphor	232 mg	700 mg	(=33,1%)	Info zum Tagesbedarf an Phosphor
+Schwefel	91 mg	0,0		
+Chlorid	705 mg	2.300 mg	(=30,7%)	Info zum Tagesbedarf an Chlorid
+Spurenelement in µg	Tagesbedarf lt. DGE
+Eisen	2.661 µg	12.500 µg	(=21,3%)	Info zum Tagesbedarf an Eisen
+Zink	2.409 µg	8.500 µg	(=28,3%)	Info zum Tagesbedarf an Zink
+Kupfer	301 µg	1.250 µg	(=24,1%)	Info zum Tagesbedarf an Kupfer
+Mangan	2.287 µg	3.500 µg	(=65,3%)	Info zum Tagesbedarf an Mangan
+Fluorid	102 µg	3.800 µg	(=2,7%)	Info zum Tagesbedarf an Fluorid
+Iodid	4 µg	200 µg	(=2,2%)	Info zum Tagesbedarf an Iodid

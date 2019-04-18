@@ -1,0 +1,55 @@
+https://www.naehrwertrechner.de/naehrwerte/M%C3%BCsli+mit+Milch%2C+Zucker+und+Obst+%28Zubereitung+Haushalt%29/
+Zusammensetzung	Tagesbedarf
+(lt. Deiner Angabe)
+Kilokalorien	126 kcal	0,0	
+KiloJoule	527 kJ	
+Wasser	68 g	0,0	
+Eiweiß, Proteine	3 g	0,0	
+Fett	2 g	0,0	
+Kohlenhydrate	23 g	0,0	
+Ballaststoffe	2 g	0,0	
+Broteinheiten DE	2 BE	0,0	
+Broteinheiten CH	2 BE	0,0	
+Carbohydrate units EN	2 CU	0,0	
+Mineralstoffe (Rohasche)	1 g	0,0	
+organische Säuren	1 g	0,0	
+Alkohol (Ethanol)	0,0 g	0,0	
+Nährwertampel für 100 g Müsli mit Milch, Zucker und Obst (Zubereitung Haushalt)
+Nährwert	Menge	Bewertung
+Fett gesamt	2,0 g	
+gesättigte Fettsäuren	0,6 g	
+Zucker	11,4 g	
+Salz	0,0 g	
+Vitamin in µg	Tagesbedarf
+Vitamin A Retinoläquivalent	15 µg	900 µg	(=1,7%)	Info zum Tagesbedarf an Vitamin A Retinoläquivalent
+Vitamin A Retinol	4 µg	1.000 µg	(=0,4%)	Info zum Tagesbedarf an Vitamin A Retinol
+Vitamin A Beta-Carotin	62 µg	2.000 µg	(=3,1%)	Info zum Tagesbedarf an Berta Carotin
+Vitamin B1 Thiamin	136 µg	1.100 µg	(=12,4%)	Info zum Tagesbedarf an Vitamin B1 Thiamin
+Vitamin B2 Riboflavin	71 µg	1.200 µg	(=5,9%)	Info zum Tagesbedarf an Vitamin B2 Riboflavin
+Vitamin B3 Niacin, Nicotinsäure	322 µg	15.000 µg	(=2,1%)	Info zum Tagesbedarf an Vitamin B3 Niacin
+Vitamin B3 Niacinäquivalent	872 µg	17.000 µg	(=5,1%)	Info zum Tagesbedarf an Vitamin B3 Niacinäquivalent
+Vitamin B5 Pantothensäure	330 µg	6.000 µg	(=5,5%)	Info zum Tagesbedarf an Vitamin B5 Pantothensäute
+Vitamin B6 Pyridoxin	71 µg	1.500 µg	(=4,7%)	Info zum Tagesbedarf an Vitamin B6 Pyridoxin
+Vitamin B7 Biotin (Vitamin H)	5 µg	100 µg	(=4,7%)	Info zum Tagesbedarf an Vitamin B7 Biotin
+Vitamin B9 gesamte Folsäure	9 µg	400 µg	(=2,3%)	Info zum Tagesbedarf an Vitamin B9 Folsäure
+Vitamin B12 Cobalamin	0,1 µg	3 µg	(=3,3%)	Info zum Tagesbedarf an Vitamin B12 Cobalamin
+Vitamin C Ascorbinsäure	11.123 µg	100.000 µg	(=11,1%)	Info zum Tagesbedarf an Vitamin C
+Vitamin D Calciferole	0,0 µg	20 µg	(=0,1%)	Info zum Tagesbedarf an Vitamin D Calciferole
+Vitamin E Tocopheroläquivalent	555 µg	12.000 µg	(=4,6%)	Info zum Tagesbedarf an Vitamin E Tocopheroläquivalent
+Vitamin E Tocopherol	436 µg	0,0		Info zum Tagesbedarf an Vitamin E Alphatocopherol
+Vitamin K Phyllochinon	15 µg	70 µg	(=21,4%)	Info zum Tagesbedarf an Vitamin K Phyllochinon
+Mineralstoff in mg	Tagesbedarf
+Natrium	10 mg	1.500 mg	(=0,7%)	Info zum Tagesbedarf an Natrium
+Kalium	183 mg	4.000 mg	(=4,6%)	Info zum Tagesbedarf an Kalium
+Calcium	34 mg	1.000 mg	(=3,4%)	Info zum Tagesbedarf an Calcium
+Magnesium	33 mg	350 mg	(=9,4%)	Info zum Tagesbedarf an Magnesium
+Phosphor	93 mg	700 mg	(=13,3%)	Info zum Tagesbedarf an Phosphor
+Schwefel	45 mg	0,0		
+Chlorid	27 mg	2.300 mg	(=1,2%)	Info zum Tagesbedarf an Chlorid
+Spurenelement in µg	Tagesbedarf lt. DGE
+Eisen	1.185 µg	12.500 µg	(=9,5%)	Info zum Tagesbedarf an Eisen
+Zink	877 µg	8.500 µg	(=10,3%)	Info zum Tagesbedarf an Zink
+Kupfer	179 µg	1.250 µg	(=14,3%)	Info zum Tagesbedarf an Kupfer
+Mangan	864 µg	3.500 µg	(=24,7%)	Info zum Tagesbedarf an Mangan
+Fluorid	16 µg	3.800 µg	(=0,4%)	Info zum Tagesbedarf an Fluorid
+Iodid	3 µg	200 µg	(=1,4%)	Info zum Tagesbedarf an Iodid

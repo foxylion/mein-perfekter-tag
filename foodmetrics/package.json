@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "scripts": {
+    "convert": "ts-node src/convert.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.45",
+    "prettier": "^1.17.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.3"
+  }
+}
