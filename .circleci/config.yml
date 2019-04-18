@@ -4,55 +4,55 @@ workflows:
   version: 2
   build:
     jobs:
-      - build:
+      - build-client:
           filters:
             branches:
               ignore:
                 - gh-pages
-      - deploy:
+      - deploy-client:
           requires:
-            - build
+            - build-client
           filters:
             branches:
               only:
                 - master
 
 jobs:
-  build:
+  build-client:
     docker:
       - image: node:10
     steps:
       - checkout
       - restore_cache:
-          keys: ['node_modules-{{ checksum "yarn.lock" }}']
-      - run: yarn install
+          keys: ['node_modules-{{ checksum "client/yarn.lock" }}']
+      - run: make install-dependencies-client
       - save_cache:
-          paths: ['node_modules']
-          key: node_modules-{{ checksum "yarn.lock" }}
-      - run: yarn build
+          paths: ["node_modules"]
+          key: node_modules-{{ checksum "client/yarn.lock" }}
+      - run: make build-client
       - persist_to_workspace:
           root: .
           paths:
-            - build/*
-  deploy:
+            - client/build/*
+  deploy-client:
     docker:
       - image: node:10
     steps:
       - checkout
       - restore_cache:
-          keys: ['node_modules-{{ checksum "yarn.lock" }}']
-      - run: yarn install
+          keys: ['node_modules-{{ checksum "client/yarn.lock" }}']
+      - run: make install-dependencies-client
       - save_cache:
-          paths: ['node_modules']
-          key: node_modules-{{ checksum "yarn.lock" }}
+          paths: ["node_modules"]
+          key: node_modules-{{ checksum "client/yarn.lock" }}
       - attach_workspace:
           at: .
       - add_ssh_keys:
-          fingerprints: ['7d:95:13:63:1f:d3:d7:00:e3:fc:5e:69:ad:b6:ad:6a']
+          fingerprints: ["7d:95:13:63:1f:d3:d7:00:e3:fc:5e:69:ad:b6:ad:6a"]
       - run:
           name: Setup git user
           command: |
             git config user.email "build@circleci.com"
             git config user.name "CircleCI"
       - run:
-          command: yarn deploy
+          command: make deploy-client
