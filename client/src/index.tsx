@@ -24,7 +24,7 @@ const App: React.FunctionComponent<{}> = () => {
       <CssBaseline />
       <ThemeProvider theme={defaultTheme}>
         <FoodEmojiBackground />
-        <Header onHiddenClick={() => setShowPrintTable(true)} />
+        <Header onHiddenClick={() => setShowPrintTable(!showPrintTable)} />
         {!showPrintTable && <QuestionairePage />}
         {showPrintTable && <PrintTable />}
       </ThemeProvider>

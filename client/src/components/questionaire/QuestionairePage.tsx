@@ -13,6 +13,7 @@ interface UnitsMap {
 
 export const QuestionairePage: React.ComponentType<{}> = () => {
   const [units, setUnits] = useState<UnitsMap>({});
+  const [focusedIdx, setFocusedIdx] = useState<number>();
   const [showResults, setShowResults] = useState<boolean>(false);
   const results = foodList
     .map((food, idx) => ({ food, units: units[idx] }))
@@ -25,7 +26,14 @@ export const QuestionairePage: React.ComponentType<{}> = () => {
           {foodList.map((food, idx) => {
             return (
               <FullWidthGridItem key={idx}>
-                <FoodInput food={food} onChange={(_, newValue) => setUnits({ ...units, [idx]: newValue })} value={units[idx]} />
+                <FoodInput
+                  food={food}
+                  focus={idx === focusedIdx}
+                  onChange={newValue => setUnits({ ...units, [idx]: newValue })}
+                  onFocus={() => setFocusedIdx(idx)}
+                  onEnterKey={() => setFocusedIdx(idx + 1)}
+                  value={units[idx]}
+                />
               </FullWidthGridItem>
             );
           })}
