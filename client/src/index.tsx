@@ -1,8 +1,10 @@
+import { installStyles } from './config'; // Must be the first input, otherwise styleing may fail
+
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
 import { createMuiTheme, CssBaseline } from '@material-ui/core';
-import { install as installStyles, ThemeProvider } from '@material-ui/styles';
+import { ThemeProvider } from '@material-ui/styles';
 
 import { FoodEmojiBackground } from './components/FoodEmojiBackground';
 import { Header } from './components/header/Header';
