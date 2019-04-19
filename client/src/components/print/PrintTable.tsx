@@ -22,10 +22,11 @@ export const PrintTable: React.FunctionComponent<{}> = () => (
           </TableRow>
         </TableHead>
         <TableBody>
-          {foodList.map(food => (
-            <TableRow>
+          {foodList.map((food, idx) => (
+            <TableRow key={idx}>
               <TableCell>
-                <span style={{ fontWeight: 'bold' }}>{food.info.nicename}</span> &nbsp;
+                <span style={{ fontWeight: 'bold' }}>{food.info.nicename}</span>
+                &nbsp;&nbsp;
                 <span style={{ fontStyle: 'italic', color: '#777' }}>{food.info.unit}</span>
               </TableCell>
               <TableCell />
