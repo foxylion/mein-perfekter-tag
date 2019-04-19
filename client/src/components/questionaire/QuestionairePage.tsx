@@ -25,6 +25,9 @@ export const QuestionairePage: React.ComponentType<{}> = () => {
     <>
       {!showResults && (
         <PrettyContent maxWidth={400}>
+          <FullWidthGridItem>
+            <Typography variant="h5">Mein Speiseplan</Typography>
+          </FullWidthGridItem>
           {foodList.map((food, idx) => {
             return (
               <FullWidthGridItem key={idx}>

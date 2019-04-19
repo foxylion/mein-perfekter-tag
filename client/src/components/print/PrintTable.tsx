@@ -29,7 +29,7 @@ const DenseCell = (props: { children?: React.ReactNode }) => {
 export const PrintTable: React.FunctionComponent<{}> = () => (
   <PrettyContent maxWidth={600}>
     <FullWidthGridItem>
-      <Typography variant="h4">Aufgabenblatt</Typography>
+      <Typography variant="h5">Mein Speiseplan</Typography>
     </FullWidthGridItem>
     <FullWidthGridItem>
       <Table>

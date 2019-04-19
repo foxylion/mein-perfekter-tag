@@ -29,7 +29,7 @@ const NoBreakCell = (props: { children: React.ReactNode }) => (
 export const ResultsTable: React.FunctionComponent<Props> = props => {
   return (
     <>
-      <Typography variant="h4">Ergebnis</Typography>
+      <Typography variant="h5">Ergebnis</Typography>
       <div style={{ overflow: 'auto' }}>
         <Table padding="dense">
           <TableHead>
