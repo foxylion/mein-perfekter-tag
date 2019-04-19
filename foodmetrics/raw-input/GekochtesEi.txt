@@ -1,0 +1,55 @@
+https://www.naehrwertrechner.de/naehrwerte/H%C3%BChnerei+frisch+gegart/
+Zusammensetzung	Tagesbedarf
+(lt. Deiner Angabe)
+Kilokalorien	149 kcal	0,0	
+KiloJoule	623 kJ	
+Wasser	75 g	0,0	
+Eiweiß, Proteine	12 g	0,0	
+Fett	11 g	0,0	
+Kohlenhydrate	1 g	0,0	
+Ballaststoffe	0,0 g	0,0	
+Broteinheiten DE	0,1 BE	0,0	
+Broteinheiten CH	0,1 BE	0,0	
+Carbohydrate units EN	0,0 CU	0,0	
+Mineralstoffe (Rohasche)	1 g	0,0	
+organische Säuren	0,0 g	0,0	
+Alkohol (Ethanol)	0,0 g	0,0	
+Nährwertampel für 100 g Hühnerei frisch gegart
+Nährwert	Menge	Bewertung
+Fett gesamt	10,8 g	
+gesättigte Fettsäuren	3,2 g	
+Zucker	0,7 g	
+Salz	0,2 g	
+Vitamin in µg	Tagesbedarf
+Vitamin A Retinoläquivalent	282 µg	900 µg	(=31,3%)	Info zum Tagesbedarf an Vitamin A Retinoläquivalent
+Vitamin A Retinol	280 µg	1.000 µg	(=28,0%)	Info zum Tagesbedarf an Vitamin A Retinol
+Vitamin A Beta-Carotin	13 µg	2.000 µg	(=0,7%)	Info zum Tagesbedarf an Berta Carotin
+Vitamin B1 Thiamin	71 µg	1.100 µg	(=6,5%)	Info zum Tagesbedarf an Vitamin B1 Thiamin
+Vitamin B2 Riboflavin	220 µg	1.200 µg	(=18,3%)	Info zum Tagesbedarf an Vitamin B2 Riboflavin
+Vitamin B3 Niacin, Nicotinsäure	67 µg	15.000 µg	(=0,4%)	Info zum Tagesbedarf an Vitamin B3 Niacin
+Vitamin B3 Niacinäquivalent	2.967 µg	17.000 µg	(=17,5%)	Info zum Tagesbedarf an Vitamin B3 Niacinäquivalent
+Vitamin B5 Pantothensäure	1.298 µg	6.000 µg	(=21,6%)	Info zum Tagesbedarf an Vitamin B5 Pantothensäute
+Vitamin B6 Pyridoxin	97 µg	1.500 µg	(=6,5%)	Info zum Tagesbedarf an Vitamin B6 Pyridoxin
+Vitamin B7 Biotin (Vitamin H)	20 µg	100 µg	(=20,0%)	Info zum Tagesbedarf an Vitamin B7 Biotin
+Vitamin B9 gesamte Folsäure	53 µg	400 µg	(=13,3%)	Info zum Tagesbedarf an Vitamin B9 Folsäure
+Vitamin B12 Cobalamin	2 µg	3 µg	(=66,7%)	Info zum Tagesbedarf an Vitamin B12 Cobalamin
+Vitamin C Ascorbinsäure	0,0 µg	100.000 µg	(=0,0%)	Info zum Tagesbedarf an Vitamin C
+Vitamin D Calciferole	3 µg	20 µg	(=15,0%)	Info zum Tagesbedarf an Vitamin D Calciferole
+Vitamin E Tocopheroläquivalent	2.051 µg	12.000 µg	(=17,1%)	Info zum Tagesbedarf an Vitamin E Tocopheroläquivalent
+Vitamin E Tocopherol	1.949 µg	0,0		Info zum Tagesbedarf an Vitamin E Alphatocopherol
+Vitamin K Phyllochinon	46 µg	70 µg	(=65,7%)	Info zum Tagesbedarf an Vitamin K Phyllochinon
+Mineralstoff in mg	Tagesbedarf
+Natrium	73 mg	1.500 mg	(=4,9%)	Info zum Tagesbedarf an Natrium
+Kalium	97 mg	4.000 mg	(=2,4%)	Info zum Tagesbedarf an Kalium
+Calcium	54 mg	1.000 mg	(=5,4%)	Info zum Tagesbedarf an Calcium
+Magnesium	10 mg	350 mg	(=2,9%)	Info zum Tagesbedarf an Magnesium
+Phosphor	208 mg	700 mg	(=29,7%)	Info zum Tagesbedarf an Phosphor
+Schwefel	173 mg	0,0		
+Chlorid	91 mg	2.300 mg	(=4,0%)	Info zum Tagesbedarf an Chlorid
+Spurenelement in µg	Tagesbedarf lt. DGE
+Eisen	1.597 µg	12.500 µg	(=12,8%)	Info zum Tagesbedarf an Eisen
+Zink	1.369 µg	8.500 µg	(=16,1%)	Info zum Tagesbedarf an Zink
+Kupfer	128 µg	1.250 µg	(=10,2%)	Info zum Tagesbedarf an Kupfer
+Mangan	29 µg	3.500 µg	(=0,8%)	Info zum Tagesbedarf an Mangan
+Fluorid	106 µg	3.800 µg	(=2,8%)	Info zum Tagesbedarf an Fluorid
+Iodid	10 µg	200 µg	(=5,0%)	Info zum Tagesbedarf an Iodid

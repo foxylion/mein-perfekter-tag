@@ -53,7 +53,6 @@ export const relevantMetrics: Array<keyof FoodMetrics> = [
   'wasser',
   'vitamin_c_ascorbinsaeure',
   'vitamin_d_calciferole',
-  // 'vitamin_e_tocopherol',
   'vitamin_b1_thiamin',
   'vitamin_b2_riboflavin',
   'vitamin_b6_pyridoxin',
@@ -75,8 +74,6 @@ export const getNiceName = (field: keyof FoodMetrics): string => {
       return 'Vitamin C';
     case 'vitamin_d_calciferole':
       return 'Vitamin D';
-    // case 'vitamin_e_tocopherol':
-    //   return 'Vitamin E';
     case 'vitamin_b1_thiamin':
       return 'Vitamin B1';
     case 'vitamin_b2_riboflavin':
@@ -115,9 +112,6 @@ export const getDescription = (field: keyof FoodMetrics): string => {
     case 'vitamin_d_calciferole':
       return `Die Stoffe der Vitamin D-Gruppe (Calciferole) sind notwendig für die Regelung des Kalzium- und Phosphatgleichgewichts im Körper.
       Vitamin D unterstützt die Aufnahme von Kalzium aus dem Darm und ist wichtig für die Stärkung von Knochen und Zähnen.`;
-    // case 'vitamin_e_tocopherol':
-    //   return `Vitamin E ist notwendig für eine normale Zellstruktur und für die Funktion von roten Blutkörperchen.
-    //     Vitamin E schützt die Lungen vor Beschädigungen durch Luftverschmutzung und schützt die roten Blutkörperchen.`;
     case 'vitamin_b1_thiamin':
       return `Vitamin B1 (Thiamin) spielt eine wichtige Rolle bei der Verwertung von Kohlenhydraten und ist damit wichtig für alle Funktionen von Muskeln, Herz und Nerven.`;
     case 'vitamin_b2_riboflavin':
@@ -144,8 +138,7 @@ export const formatValue = (value: number, field: keyof FoodMetrics): string => 
     case 'zucker':
       return `${value.toLocaleString('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 })} g`;
     case 'wasser':
-      return `${value.toFixed(0)} ml`;
-    // case 'vitamin_e_tocopherol':
+      return `${value.toLocaleString('de-DE', { minimumFractionDigits: 0, maximumFractionDigits: 0 })} ml`;
     case 'vitamin_b1_thiamin':
     case 'vitamin_b2_riboflavin':
     case 'vitamin_b6_pyridoxin':
