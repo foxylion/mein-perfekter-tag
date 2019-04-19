@@ -29,19 +29,23 @@ const NoBreakCell = (props: { children: React.ReactNode }) => (
 export const ResultsTable: React.FunctionComponent<Props> = props => {
   return (
     <>
-      <Typography variant="display1">Ergebnis</Typography>
+      <Typography variant="h4">Ergebnis</Typography>
       <div style={{ overflow: 'auto' }}>
         <Table padding="dense">
           <TableHead>
             <TableRow>
               <TableCell>Inhaltsstoff</TableCell>
-              <NoBreakCell>Tagesbedarf</NoBreakCell>
+              <NoBreakCell>
+                Tagesbedarf
+                <br />
+                /-grenze
+              </NoBreakCell>
               <NoBreakCell>Tatsächlich</NoBreakCell>
               {props.results.map(result => (
                 <NoBreakCell key={result.food.info.nicename}>
                   {result.food.info.nicename}
                   <br />
-                  <i>{result.units * result.food.info.gPerUnit} g</i>
+                  <i>{(result.units * result.food.info.gPerUnit).toLocaleString('de-DE', { minimumFractionDigits: 0, maximumFractionDigits: 0 })} g</i>
                 </NoBreakCell>
               ))}
             </TableRow>
