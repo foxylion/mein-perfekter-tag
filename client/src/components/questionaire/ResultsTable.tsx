@@ -3,7 +3,7 @@ import React from 'react';
 import { Table, TableBody, TableCell, TableFooter, TableHead, TableRow, Typography } from '@material-ui/core';
 
 import { Food, foodList } from '../../types/FoodList';
-import { FoodMetrics, formatValue, getNiceName, getRecommendedDailyAmount } from '../../types/FoodMetrics';
+import { FoodMetrics, formatValue, getNiceName, getRecommendedDailyAmount, relevantMetrics } from '../../types/FoodMetrics';
 
 export interface ResultProp {
   food: Food;
@@ -12,6 +12,7 @@ export interface ResultProp {
 
 export interface Props {
   results: ResultProp[];
+  showInfo: (metricName: keyof FoodMetrics) => void;
 }
 
 const reduce = (results: ResultProp[], field: keyof FoodMetrics) => {
@@ -26,7 +27,6 @@ const NoBreakCell = (props: { children: React.ReactNode }) => (
 );
 
 export const ResultsTable: React.FunctionComponent<Props> = props => {
-  const metricNames: Array<keyof FoodMetrics> = ['kilokalorien', 'salz', 'zucker', 'wasser'];
   return (
     <>
       <Typography variant="display1">Ergebnis</Typography>
@@ -48,11 +48,13 @@ export const ResultsTable: React.FunctionComponent<Props> = props => {
           </TableHead>
 
           <TableBody>
-            {metricNames.map(metricName => {
+            {relevantMetrics.map(metricName => {
               return (
                 <TableRow key={metricName}>
-                  <TableCell>{getNiceName(metricName)}</TableCell>
-                  <NoBreakCell>{formatValue(getRecommendedDailyAmount(metricName), metricName)}</NoBreakCell>
+                  <TableCell onClick={() => props.showInfo(metricName)} style={{ cursor: 'pointer' }}>
+                    {getNiceName(metricName)}
+                  </TableCell>
+                  <NoBreakCell>{!isNaN(getRecommendedDailyAmount(metricName)) && formatValue(getRecommendedDailyAmount(metricName), metricName)}</NoBreakCell>
                   <NoBreakCell> {formatValue(reduce(props.results, metricName), metricName)}</NoBreakCell>
                   {props.results.map(({ food, units }) => {
                     const weight = units * food.info.gPerUnit;
