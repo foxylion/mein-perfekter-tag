@@ -4,11 +4,7 @@ workflows:
   version: 2
   build:
     jobs:
-      - build-client:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
+      - build-client
       - deploy-client:
           requires:
             - build-client

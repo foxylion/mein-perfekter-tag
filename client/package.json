@@ -26,7 +26,7 @@
     "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages --dist build"
+    "deploy": "gh-pages -m \"[ci skip] changes\" --dist build"
   },
   "eslintConfig": {
     "extends": "react-app"
