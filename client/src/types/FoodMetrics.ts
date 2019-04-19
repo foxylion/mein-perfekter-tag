@@ -45,3 +45,48 @@ export interface FoodMetrics {
   fluorid: number; // µg
   iodid: number; // µg
 }
+
+export const getNiceName = (field: keyof FoodMetrics): string => {
+  switch (field) {
+    case 'kilokalorien':
+      return 'Kalorien';
+    case 'salz':
+      return 'Salz';
+    case 'zucker':
+      return 'Zucker';
+    case 'wasser':
+      return 'Wasser';
+    default:
+      return '<< not-translated >>';
+  }
+};
+
+export const formatValue = (value: number, field: keyof FoodMetrics): string => {
+  switch (field) {
+    case 'kilokalorien':
+      return `${value.toFixed(0)} kcal`;
+    case 'salz':
+      return `${value.toFixed(1)} g`;
+    case 'zucker':
+      return `${value.toFixed(1)} g`;
+    case 'wasser':
+      return `${value.toFixed(0)} ml`;
+    default:
+      return `${value.toFixed(0)} ??`;
+  }
+};
+
+export const getRecommendedDailyAmount = (field: keyof FoodMetrics): number => {
+  switch (field) {
+    case 'kilokalorien':
+      return 2000;
+    case 'salz':
+      return 6;
+    case 'zucker':
+      return 50;
+    case 'wasser':
+      return 2650;
+    default:
+      return NaN;
+  }
+};

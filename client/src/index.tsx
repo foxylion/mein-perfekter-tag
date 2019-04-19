@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
 import { createMuiTheme, CssBaseline } from '@material-ui/core';
 import { install as installStyles, ThemeProvider } from '@material-ui/styles';
 
-import { Content } from './components/Content';
-import { Header } from './components/Header';
+import { FoodEmojiBackground } from './components/FoodEmojiBackground';
+import { Header } from './components/header/Header';
+import { PrintTable } from './components/print/PrintTable';
+import { QuestionairePage } from './components/questionaire/QuestionairePage';
 
 installStyles();
 
@@ -15,14 +17,19 @@ const defaultTheme = createMuiTheme({
   }
 });
 
-const App: React.FunctionComponent<{}> = () => (
-  <>
-    <CssBaseline />
-    <ThemeProvider theme={defaultTheme}>
-      <Header />
-      <Content />
-    </ThemeProvider>
-  </>
-);
+const App: React.FunctionComponent<{}> = () => {
+  const [showPrintTable, setShowPrintTable] = useState<boolean>(false);
+  return (
+    <>
+      <CssBaseline />
+      <ThemeProvider theme={defaultTheme}>
+        <FoodEmojiBackground />
+        <Header onHiddenClick={() => setShowPrintTable(true)} />
+        {!showPrintTable && <QuestionairePage />}
+        {showPrintTable && <PrintTable />}
+      </ThemeProvider>
+    </>
+  );
+};
 
 ReactDOM.render(<App />, document.getElementById('root'));

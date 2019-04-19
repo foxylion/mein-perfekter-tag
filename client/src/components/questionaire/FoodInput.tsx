@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { TextField } from '@material-ui/core';
-import { Food } from '../types/FoodList';
+import { Food } from '../../types/FoodList';
 
 export interface Props {
   food: Food;
